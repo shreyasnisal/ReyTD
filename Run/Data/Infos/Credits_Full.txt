@@ -1,0 +1,44 @@
+Game Designer and Programmer
+
+Shreyas 'Rey' Nisal
+
+
+Logo Design
+
+Namita Nisal
+
+
+Art Assets
+
+Kenney.nl
+Quaternius.com
+
+
+Music and SFX
+
+OpenGameArt.org
+
+
+Audio Engine
+
+FMOD
+
+
+Guildhall Faculty Stakeholder
+
+Matt Butler
+
+
+Special Thanks to the SMU Guildhall
+Programming Faculty
+
+Gary Brubaker
+Matt Butler
+Squirrel Eiserloh
+Adam Konrad
+
+
+ReyTD was developed by Shreyas 'Rey' Nisal
+at SMU Guildhall for the Directed Focus
+Study 1 project.
+

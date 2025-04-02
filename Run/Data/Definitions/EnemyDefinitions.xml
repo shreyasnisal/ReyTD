@@ -1,0 +1,47 @@
+<EnemyDefinitions>
+
+	<!-- Armabee -->
+	<EnemyDefinition name="Armabee" health="100.0" speed="1.0" turnSpeed="180.0" model="Data/Models/Enemies/Armabee" texture="Data/Models/Enemies/EnemyTexture.png" moneyMultiplier="5" numParticlesOnDeath="5">
+		<Transform x="0.0,1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.2" />
+	</EnemyDefinition>
+	
+	<!-- Armabee Evolved -->
+	<EnemyDefinition name="Armabee_Evolved" health="200.0" speed="1.5" turnSpeed="180.0" model="Data/Models/Enemies/Armabee_Evolved" texture="Data/Models/Enemies/EnemyTexture.png" moneyMultiplier="10">
+		<Transform x="0.0,1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.2" />
+	</EnemyDefinition>
+	
+	<!-- Alpaking -->
+	<EnemyDefinition name="Alpaking" health="100.0" speed="2.0" turnSpeed="360.0" model="Data/Models/Enemies/Alpaking" texture="Data/Models/Enemies/EnemyTexture.png" moneyMultiplier="15">
+		<Transform x="0.0,1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.2" />
+	</EnemyDefinition>
+	
+	<!-- Alpacking Evolved -->
+	<EnemyDefinition name="Alpaking_Evolved" health="300.0" speed="2.5" turnSpeed="360.0" model="Data/Models/Enemies/Alpaking_Evolved" texture="Data/Models/Enemies/EnemyTexture.png" moneyMultiplier="20">
+		<Transform x="0.0,1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.2" />
+	</EnemyDefinition>
+	
+	<!-- Demon -->
+	<EnemyDefinition name="Demon" health="200.0" speed="1.0" turnSpeed="180.0" model="Data/Models/Enemies/Demon" texture="Data/Models/Enemies/EnemyTexture.png" moneyMultiplier="50" damageMultiplier="0.5">
+		<Transform x="0.0,1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.2" />
+	</EnemyDefinition>
+	
+	<!-- Dragon -->
+	<EnemyDefinition name="Dragon" health="500.0" speed="2.0" turnSpeed="180.0" model="Data/Models/Enemies/Dragon" texture="Data/Models/Enemies/EnemyTexture.png" moneyMultiplier="70" immuneToBurn="true" slowMultiplier="0.5">
+		<Transform x="0.0,1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.2" />
+	</EnemyDefinition>
+	
+	<!-- Dragon Evolved -->
+	<EnemyDefinition name="Dragon_Evolved" health="500.0" speed="2.5" turnSpeed="180.0" model="Data/Models/Enemies/Dragon_Evolved" texture="Data/Models/Enemies/EnemyTexture.png" moneyMultiplier="80" immuneToBurn="true" slowMultiplier="0.5">
+		<Transform x="0.0,1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.2" />
+	</EnemyDefinition>
+	
+	<!-- Ghost -->
+	<EnemyDefinition name="Ghost" health="1000.0" speed="0.5" turnSpeed="180.0" model="Data/Models/Enemies/Ghost" texture="Data/Models/Enemies/EnemyTexture.png" moneyMultiplier="100" immuneToBurn="true" immuneToPoison="true" immuneToSlow="true">
+		<Transform x="0.0,1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.2" />
+	</EnemyDefinition>
+	
+	<!-- Ghost Skull -->
+	<EnemyDefinition name="Ghost_Skull" health="1500.0" speed="1.0" turnSpeed="180.0" model="Data/Models/Enemies/Ghost_Skull" texture="Data/Models/Enemies/EnemyTexture.png" moneyMultiplier="150" immuneToBurn="true" immuneToPoison="true" immuneToSlow="true">
+		<Transform x="0.0,1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.2" />
+	</EnemyDefinition>
+</EnemyDefinitions>

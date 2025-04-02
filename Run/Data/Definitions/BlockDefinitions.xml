@@ -1,0 +1,102 @@
+<BlockDefinitions>
+	<BlockDefinition name="StartUD" model="Data/Models/Environment/StraightUD" mapImageColor="255,255,0,255" canPlaceTower="false" enemyTraversable="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="StartLR" model="Data/Models/Environment/StraightLR" mapImageColor="127,127,0,255" canPlaceTower="false" enemyTraversable="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="Grass" model="Data/Models/Environment/Grass" mapImageColor="0,0,0,255" canPlaceTower="true" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="Rock" model="Data/Models/Environment/Rock" mapImageColor="127,127,127,255" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="Crystal" model="Data/Models/Environment/Crystal" mapImageColor="255,127,255,255" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="Tree" model="Data/Models/Environment/Tree" mapImageColor="0,255,0,255" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="TreeDouble" model="Data/Models/Environment/TreeDouble" mapImageColor="0,170,0" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="TreeQuad" model="Data/Models/Environment/TreeQuad" mapImageColor="0,85,0" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="RiverStraightLR" model="Data/Models/Environment/RiverStraightLR" mapImageColor="0,127,127,0" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="RiverStraightUD" model="Data/Models/Environment/RiverStraightUD" mapImageColor="0,255,255,0" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="RiverCornerLU" model="Data/Models/Environment/RiverCornerLU" mapImageColor="0,0,204,0" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="RiverCornerLD" model="Data/Models/Environment/RiverCornerLD" mapImageColor="0,0,153,0" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="RiverCornerRU" model="Data/Models/Environment/RiverCornerRU" mapImageColor="0,0,102,0" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="RiverCornerRD" model="Data/Models/Environment/RiverCornerRD" mapImageColor="0,0,51,0" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="BridgeLR" model="Data/Models/Environment/BridgeLR" mapImageColor="127,65,0,0" canPlaceTower="false" enemyTraversable="true" isBridge="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="BridgeUD" model="Data/Models/Environment/BridgeUD" mapImageColor="255,130,0,0" canPlaceTower="false" enemyTraversable="true" isBridge="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="PathStraightLR" model="Data/Models/Environment/StraightLR" mapImageColor="255,0,0,255" canPlaceTower="false" enemyTraversable="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="PathStraightUD" model="Data/Models/Environment/StraightUD" mapImageColor="213,0,0,255" canPlaceTower="false" enemyTraversable="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="PathCornerLU" model="Data/Models/Environment/CornerLU" mapImageColor="171,0,0,255" canPlaceTower="false" enemyTraversable="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="PathCornerLD" model="Data/Models/Environment/CornerLD" mapImageColor="129,0,0,255" canPlaceTower="false" enemyTraversable="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="PathCornerRU" model="Data/Models/Environment/CornerRU" mapImageColor="87,0,0,255" canPlaceTower="false" enemyTraversable="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="PathCornerRD" model="Data/Models/Environment/CornerRD" mapImageColor="45,0,0,255" canPlaceTower="false" enemyTraversable="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="EndUD" model="Data/Models/Environment/StraightUD" mapImageColor="255,0,255,255" canPlaceTower="false" enemyTraversable="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="EndLR" model="Data/Models/Environment/StraightLR" mapImageColor="127,0,127,255" canPlaceTower="false" enemyTraversable="true">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+	<BlockDefinition name="Arrow" model="Data/Models/Environment/Arrow" mapImageColor="255,255,255,255" canPlaceTower="false" enemyTraversable="false">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="-1.0,0.0,0.0" />
+	</BlockDefinition>
+	
+</BlockDefinitions>

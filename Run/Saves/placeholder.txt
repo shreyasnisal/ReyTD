@@ -1,0 +1,1 @@
+Do not delete this file or directory. This directory is used to save files with game progress.

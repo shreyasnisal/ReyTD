@@ -1,0 +1,26 @@
+<TowerDefinitions>
+	<TowerDefinition name="Shooter" turnSpeed="360.0" refireTime="0.2" range="2.0" damage="5.0~10.0" firedParticleColor="127,127,127" numParticlesFired="1" firedParticlePosition="0.25,0.0,0.65" firedParticleSize="0.3~0.4" firedParticleLifetime="0.5" firedParticleVelocity="0.0,0.0,1.0" firedParticleRotationSpeed="30.0~60.0" firedParticle="ShooterFire" model="Data/Models/Towers/Shooter" turretModel="Data/Models/Towers/Shooter_Turret" cost="80" fireSFX="Data/Audio/Shooter_Fire.ogg">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.5" />
+		<TurretTransform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.5" T="0.0,0.0,0.5" />
+	</TowerDefinition>
+	
+	<TowerDefinition name="Sniper" turnSpeed="360.0" refireTime="1.0" range="5.0" damage="15.0~25.0" model="Data/Models/Towers/Sniper" turretModel="Data/Models/Towers/Sniper_Turret" cost="120" fireSFX="Data/Audio/Sniper_Fire.wav">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.5" />
+		<TurretTransform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.5" T="0.0,0.0,0.5" />
+	</TowerDefinition>
+	
+	<TowerDefinition name="Burn" turnSpeed="360.0" refireTime="0.02" range="3.0" damage="0.2~0.4" burnDamagePerSecond="20.0~40.0" burnDuration="5.0" fireParticleColor="255,165,0,255" numParticlesFired="2" firedParticleSize="0.3~0.4" firedParticleLifetime="0.5" firedParticlePosition="0.0,0.0,0.65" firedParticleVelocity="3.0,0.0,0.0" firedParticleColor="255,165,0" firedParticleRotationSpeed="30.0~60.0" firedParticle="BurnFire" firedParticleBlendMode="Additive" model="Data/Models/Towers/Burn" turretModel="Data/Models/Towers/Burn_Turret" cost="350" fireSFX="Data/Audio/Burn_Fire.ogg">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.5" />
+		<TurretTransform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.5" T="0.0,0.0,0.5" />
+	</TowerDefinition>
+	
+	<TowerDefinition name="Poison" turnSpeed="360.0" refireTime="0.2" range="2.0" damage="5.0~10.0" poisonDamagePerSecond="20.0~40.0" poisonDuration="5.0" firedParticle="PoisonFire" firedParticleColor="128,128,255" numParticlesFired="1" firedParticleSize="0.3~0.4" firedParticleLifetime="0.5" firedParticlePosition="0.0,0.0,0.65" firedParticleVelocity="3.0,0.0,0.0" model="Data/Models/Towers/Poison" turretModel="Data/Models/Towers/Poison_Turret" cost="400" fireSFX="Data/Audio/Poison_Fire.wav">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.5" />
+		<TurretTransform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.5" T="0.0,0.0,0.5" />
+	</TowerDefinition>
+	
+	<TowerDefinition name="Freeze" turnSpeed="360.0" refireTime="0.2" range="2.0" damage="5.0~10.0" slowDownFactor="0.5" slowDownDuration="3.0" firedParticle="FreezeFire" firedParticleBlendMode="Additive" firedParticleColor="0,255,255" numParticlesFired="1" firedParticleSize="0.3~0.4" firedParticleLifetime="0.5" firedParticlePosition="0.0,0.0,0.65" firedParticleVelocity="3.0,0.0,0.0" model="Data/Models/Towers/Freeze" turretModel="Data/Models/Towers/Freeze_Turret" cost="250" fireSFX="Data/Audio/Freeze_Fire.wav">
+		<Transform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.5" />
+		<TurretTransform x="0.0,-1.0,0.0" y="0.0,0.0,1.0" z="1.0,0.0,0.0" scale="0.5" T="0.0,0.0,0.5" />
+	</TowerDefinition>
+</TowerDefinitions>

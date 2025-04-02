@@ -1,0 +1,703 @@
+<MapDefinitions>
+	<MapDefinition name="Level1" image="Data/Maps/Level1.png" shaders="Data/Shaders/Map" cullModes="None" ambientIntensity="0.45" sunIntensity="0.55" sunDirection="-1.0,-2.0,-2.0" startingMoney="300" moneyMultiplier="100" lives="3" newEnemies="Armabee,Armabee_Evolved" newTowers="Shooter">
+		<Towers>
+			<Tower name="Shooter" />
+		</Towers>
+
+		<Waves>
+			<Wave startTime="10.0" enemyInterval="1.0">
+				<Enemy name="Armabee" />
+				<enemy name="Armabee" />
+				<enemy name="Armabee" />
+				<enemy name="Armabee" />
+				<enemy name="Armabee" />
+				<enemy name="Armabee" />
+				<enemy name="Armabee" />
+				<enemy name="Armabee" />
+				<enemy name="Armabee" />
+				<enemy name="Armabee" />
+			</Wave>
+			
+			<Wave startTime="30.0" enemyInterval="1.0">
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+			</Wave>
+			
+			<Wave startTime="45.0" enemyInterval="1.0">
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+			</Wave>
+			
+			<Wave startTime="65.0" enemyInterval="1.5">
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+			</Wave>
+			
+			<Wave startTime="90.0" enemyInterval="1.5">
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+			</Wave>
+		</Waves>
+	</MapDefinition>
+  
+  
+	<MapDefinition name="Level2" image="Data/Maps/Level1.png" shaders="Data/Shaders/Map" cullModes="None" ambientIntensity="0.45" sunIntensity="0.55" sunDirection="-1.0,-2.0,-2.0" startingMoney="500" moneyMultiplier="100" lives="5" newEnemies="Alpaking,Alpaking_Evolved" newTowers="Freeze">
+		<Towers>
+			<Tower name="Shooter" />
+			<Tower name="Freeze" />
+		</Towers>
+	
+		<Waves>
+			<Wave startTime="10.0" enemyInterval="1.0">
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+			</Wave>
+			
+			<Wave startTime="30.0" enemyInterval="0.5">
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+			</Wave>
+			
+			<Wave startTime="60.0" enemyInterval="1.0">
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking" />
+				<Enemy name="Armabee_Evolved" />
+			</Wave>
+			
+			<Wave startTime="90.0" enemyInterval="1.0">
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+			</Wave>
+			
+			<Wave startTime="120.0" enemyInterval="0.75">
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+				<Enemy name="Alpaking_Evolved" />
+			</Wave>
+		</Waves>
+	</MapDefinition>
+	
+	<MapDefinition name="Level3" image="Data/Maps/Level1.png" shaders="Data/Shaders/Map" cullModes="None" ambientIntensity="0.45" sunIntensity="0.55" sunDirection="-1.0,-2.0,-2.0" startingMoney="1000" lives="5" newEnemies="Demon" newTowers="Burn">
+		<Towers>
+			<Tower name="Shooter" />
+			<Tower name="Freeze" />
+			<Tower name="Burn" />
+		</Towers>
+	
+		<Waves>
+			<Wave startTime="10.0" enemyInterval="1.0">
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+			</Wave>
+			
+			<Wave startTime="30.0" enemyInterval="1.0">
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+			</Wave>
+			
+			<Wave startTime="70.0" enemyInterval="0.5">
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+			</Wave>
+			
+			<Wave startTime="100.0" enemyInterval="1.0">
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+			</Wave>
+		</Waves>
+	</MapDefinition>
+	
+	<MapDefinition name="Level4" image="Data/Maps/Level1.png" shaders="Data/Shaders/Map" cullModes="None" ambientIntensity="0.45" sunIntensity="0.55" sunDirection="-1.0,-2.0,-2.0" startingMoney="1500" lives="10" newEnemies="Dragon" newTowers="Sniper">
+		<Towers>
+			<Tower name="Shooter" />
+			<Tower name="Freeze" />
+			<Tower name="Burn" />
+			<Tower name="Sniper" />
+		</Towers>
+	
+		<Waves>
+			<Wave startTime="10.0" enemyInterval="1.0">
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+			</Wave>
+			
+			<Wave startTime="60.0" enemyInterval="1.0">
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+			</Wave>
+			
+			<Wave startTime="90.0" enemyInterval="1.0">
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+			</Wave>
+			
+			<Wave startTime="150.0" enemyInterval="1.0">
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+			</Wave>
+		</Waves>
+	</MapDefinition>
+	
+	<MapDefinition name="Level5" image="Data/Maps/Level1.png" shaders="Data/Shaders/Map" cullModes="None" ambientIntensity="0.45" sunIntensity="0.55" sunDirection="-1.0,-2.0,-2.0" startingMoney="2000" lives="10" newEnemies="Dragon_Evolved,Ghost" newTowers="Poison">
+		<Towers>
+			<Tower name="Shooter" />
+			<Tower name="Freeze" />
+			<Tower name="Sniper" />
+			<Tower name="Burn" />
+			<Tower name="Poison" />
+		</Towers>
+	
+		<Waves>
+			<Wave startTime="10.0" enemyInterval="1.0">
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+			</Wave>
+			
+			<Wave startTime="40.0" enemyInterval="1.0">
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+			</Wave>
+			
+			<Wave startTime="70.0" enemyInterval="1.0">
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Ghost" />
+			</Wave>
+		</Waves>
+	</MapDefinition>
+	
+	<MapDefinition name="Level6" image="Data/Maps/Level1.png" shaders="Data/Shaders/Map" cullModes="None" ambientIntensity="0.45" sunIntensity="0.55" sunDirection="-1.0,-2.0,-2.0" startingMoney="2500" lives="10" newEnemies="Ghost_Skull">
+		<Towers>
+			<Tower name="Shooter" />
+			<Tower name="Freeze" />
+			<Tower name="Sniper" />
+			<Tower name="Burn" />
+			<Tower name="Poison" />
+		</Towers>
+	
+		<Waves>
+			<Wave startTime="20.0" enemyInterval="1.0">
+				<Enemy name="Ghost" />
+				<enemy name="Ghost" />
+				<enemy name="Ghost" />
+				<enemy name="Ghost" />
+				<enemy name="Ghost" />
+				<enemy name="Ghost" />
+				<enemy name="Ghost" />
+				<enemy name="Ghost" />
+				<enemy name="Ghost" />
+				<enemy name="Ghost" />
+			</Wave>
+			
+			<Wave startTime="40.0" enemyInterval="0.75">
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+			</Wave>
+			
+			<Wave startTime="75.0" enemyInterval="1.5">
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+			</Wave>
+			
+			<Wave startTime="100.0" enemyInterval="1.0">
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Ghost_Skull" />
+			</Wave>
+			
+			<Wave startTime="150.0" enemyInterval="1.0">
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Dragon" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Demon" />
+				<Enemy name="Ghost" />
+				<Enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Armabee_Evolved" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Ghost" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Ghost" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Ghost" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Ghost" />
+				<enemy name="Alpaking_Evolved" />
+				<Enemy name="Armabee_Evolved" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Ghost_Skull" />
+				<Enemy name="Dragon_Evolved" />
+				<Enemy name="Ghost_Skull" />
+			</Wave>
+		</Waves>
+	</MapDefinition>
+</MapDefinitions>

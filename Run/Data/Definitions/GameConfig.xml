@@ -1,0 +1,6 @@
+<GameConfig
+	gameplayMusic="Data/Audio/Game.mp3"
+	menuMusic="Data/Audio/Menu.mp3"
+	musicVolume="0.1"
+	buttonClickSound="Data/Audio/ButtonClick.ogg"
+/>
