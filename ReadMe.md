@@ -1,5 +1,8 @@
 # ReyTD
 
+![Static Badge](https://img.shields.io/badge/C%2B%2B-deepskyblue?style=flat)
+![Static Badge](https://img.shields.io/badge/Custom%20Engine-dodgerblue?style=flat)
+
 A 3D tower defense game developed in my custom C++ game engine.
 
 ## How to Use
